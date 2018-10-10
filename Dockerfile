@@ -67,6 +67,3 @@ RUN apt-get update -yqq \
 		\
         && apt-mark manual $doNotUninstall \
         && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $buildDeps
-
-Source Repository
-  oprudkyi/docker-laravel-bootstrap-
